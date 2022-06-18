@@ -11,8 +11,13 @@ The purpose of this analysis is to compare the outcomes of successful plays, and
 
 ### Analysis of Outcomes Based on Launch Date
 The theater produced a total of 1369 Kickstarter campaigns, of those 1047 were plays. When the outcomes of all theater Kickstarter campaigns are compared to the dates, specifically the month, in which the campaign started, there is a clear trend of successful campaigns that start in the months of May, June and July. May and June had twice as many successful campaigns as failed campaigns (111 compared to 52 and 100 compared to 49, respectfully), where July was almost twice as successful (87 successes compared to 50 failures). The least successful months to start a Kickstarter campaign is November, December, and January.  During these months, the number of successful campaigns and failed campaigns are almost the same. March is also similar to these months, and should also be considered a month in which a campaign should not be started.  
+![Theater_Outcomes_vs_Launch](Theater_Outcomes_vs_Launch.png)
+
 ### Analysis of Outcomes Based on Goals
 In the 1047 plays in the dataset, 694 were successfully funded, while 353 fell short of their goal. The most successful campaigns had goals under $5,000, with a donation average of $80.74. There is also success of reaching the goal for those campaigns that asked for $35,000 to $45,000.  The least successful goals were those who asked for $5,000 to $35,000 and even less success at meeting the goal were those campaigns that asked for over $45,000, with an average donation of $47.85.  
+![Outcomes Based on Goals](Outcomes_vs_Goals.png)
+![Outcomes of Plays](Outcomes_of_Plays.png)
+![Outcomes Breakdown Based on Goals](Outcome Breakdown Based on Goal.png)
 ### Challenges and Difficulties Encountered
 Since this is a very large dataset, it was difficult at first to breakdown the data in a way that made sense to me. I understand the pivot tables, but deciding which variable goes where was a little confusing. The “countifs” command was a little strange at first; not understanding the way the rules rely on each other, but it completely makes sense to me now.  
 ## Results
